@@ -1,2 +1,63 @@
 
 /* css */
+
+/* how to creat gap between columns? */
+
+#row-2{
+  margin-top:12px;
+  margin-bottom: 12px;
+}
+
+#row-3{
+
+}
+
+
+#block-1{
+  background-color: #2E3740;
+  height: 100px;
+}
+
+#block-2 {
+  background-color: #4C5359;
+  height: 100px;
+}
+
+#block-3{
+  background-color: #798C8A;
+  height: 100px;
+  margin-top: 12px;
+}
+
+#Usability-Test-Box{
+  border: solid;
+  border-color: #5AFFB5;
+  border-width: 5px;
+  height:212px;
+}
+
+p{
+  font-family: Calibri ,sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #5AFFB5;
+  font-weight: bold;
+}
+
+ol{
+  color:white;
+  font-size: 30px;
+  align-items: center;
+}
+
+#Task{
+  border: solid;
+  border-color: #5AFFB5;
+  border-width: 5px;
+}
+
+#Screenshot{
+  border: solid;
+  border-color: #5AFFB5;
+  border-width: 5px;
+}
