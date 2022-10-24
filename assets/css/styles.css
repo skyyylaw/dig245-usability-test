@@ -100,8 +100,11 @@ table, th, td {
   #row-1{
     display: none;
   }
-  table{
+  table, #discussion-text{
     font-size: 10px;
+  }
+  #discussion-text{
+    font-size: 15px;
   }
   li{
     font-size: 15px;
