@@ -3,19 +3,35 @@
 
 /* how to creat gap between columns? */
 
-#row-2{
-  margin-top:12px;
-  margin-bottom: 12px;
+
+
+/* the following are for the green border */
+#Task, #Screenshot, #table, #discussion, #Usability-Test-Box{
+  border: solid;
+  border-color: #5AFFB5;
+  border-width: 5px;
 }
 
-#row-3{
-
+/* this p is for "Task" "Results" and "Discussion" texts */
+p{
+  font-family: Calibri ,sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: #5AFFB5;
+  font-weight: bold;
 }
 
 
+/* row 1 here */
 #block-1{
   background-color: #2E3740;
   height: 100px;
+}
+
+/* row 2 here */
+#row-2{
+  margin-top:12px;
+  margin-bottom: 12px;
 }
 
 #block-2 {
@@ -29,35 +45,44 @@
   margin-top: 12px;
 }
 
-#Usability-Test-Box{
-  border: solid;
-  border-color: #5AFFB5;
-  border-width: 5px;
-  height:212px;
-}
-
-p{
+#Usability-Test{
   font-family: Calibri ,sans-serif;
   font-size: 50px;
   text-align: center;
   color: #5AFFB5;
   font-weight: bold;
+  margin: 20px;
 }
 
+/* row 3 here */
+#list{
+  margin: 5%;
+}
 ol{
   color:white;
-  font-size: 30px;
+  font-size: 20px;
   align-items: center;
 }
-
-#Task{
-  border: solid;
-  border-color: #5AFFB5;
-  border-width: 5px;
+li{
+  border: 1px solid white;
 }
 
-#Screenshot{
-  border: solid;
-  border-color: #5AFFB5;
-  border-width: 5px;
+#screenshot{
+  width: 100%;
+}
+
+/* row 4 here */
+table, th, td {
+  margin: 30px;
+  color: white;
+  border: 2px solid #5AFFB5;
+}
+
+
+
+/* for xs */
+@media (max-width: 575.98px) {
+  #row-1{
+    display: none;
+  }
 }
