@@ -73,16 +73,56 @@ li{
 
 /* row 4 here */
 table, th, td {
-  margin: 30px;
+  margin: 5%;
   color: white;
   border: 2px solid #5AFFB5;
+  font-size: 100%;
+}
+
+/* row 5 here */
+#discussion-text{
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  font-weight: normal;
 }
 
 
 
 /* for xs */
 @media (max-width: 575.98px) {
+  #Usability-Test{
+    font-size: 35px;
+  }
+  p{
+    font-size: 30px;
+  }
   #row-1{
     display: none;
+  }
+  table{
+    font-size: 10px;
+  }
+  li{
+    font-size: 15px;
+  }
+
+}
+/* for xxs */
+@media (max-width: 340px) {
+  #Usability-Test{
+    font-size: 30px;
+  }
+  p{
+    font-size: 25px;
+  }
+  #row-1{
+    display: none;
+  }
+  table{
+    font-size: 5px;
+  }
+  li{
+    font-size: 10px;
   }
 }
